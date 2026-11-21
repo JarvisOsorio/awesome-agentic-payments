@@ -69,6 +69,7 @@ Products and libraries whose primary purpose is enforcing a budget, allowlist or
 - [Authoryze](https://authoryze.ai/) — "The authorization and control layer for AI agent payments." Tagline: "Your agent asks. Your rules decide. Approved purchases get a single-use card." Note: this is the live site that the domain agentpays.dev (a name found in third-party MCP directories) now redirects to (HTTP 308, checked 2026-09-29); we could not confirm anywhere whether the two names refer to the same company.
 - [PayAgents](https://payagents.io/) — "Payment Orchestration for AI Agents & MCP Servers." Policy-controlled wallet for Bitcoin Lightning (L402) and Base-chain USDC (x402) payments, with per-transaction, per-day and per-30-day spend caps, destination allow/denylists and an audit trail.
 - [PolicyLayer](https://policylayer.com/) — "The system of record for AI agent authority." Acts as a proxy in front of any MCP server, evaluating every tools/call request against a YAML policy file and forwarding, blocking, rate-limiting, or routing it to a human for approval.
+- [Screwtape.ai](https://screwtape.ai) — "Screwtape.ai decides whether an AI agent is allowed to spend money, and keeps the proof."
 - [SpendNod](https://www.spendnod.com/) — "Open-source authorization gateway for AI agents." MIT-licensed and self-hosted; agents call an `authorize_transaction` tool before every purchase, checked against spending thresholds, vendor blocklists, daily caps and category rules.
 
 ## SDKs, Examples & Tutorials
@@ -119,4 +120,3 @@ Open a PR adding your entry in the correct alphabetical position within its sect
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the list authors have waived all copyright and related or neighboring rights to this work. See [LICENSE](./LICENSE) (CC0-1.0).
-
